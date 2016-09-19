@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>jQuery Filterable Gallery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel="stylesheet" href="inc/fancybox/jquery.fancybox.css">
+		<link rel="stylesheet" href="inc/gallery.css">
+		<!--[if lt IE 9]>
+		<script src="inc/html5shiv.js"></script>
+		<link rel="stylesheet" href="inc/gallery_ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+
+	<div class="container">
+
+		<div class="title">
+			<h1>Filterable Photo Gallery</h1>
+		</div>
+
+		<div class="gallery">
+
+			<div class="filter">
+				<div>
+					<span>Filter photos by categories: </span>
+					<a href="#" class="sortLink" data-category="ponytail-hair">Ponytail</a>
+					<a href="#" class="sortLink" data-category="glasses">Glasses</a>
+					<a href="#" class="sortLink" data-category="dude">Male</a>
+					<a href="#" class="sortLink" data-category="chick">Female</a>
+					<div class="clear_floats"></div>
+				</div>
+			</div>
+
+			<div class="photos">
+
+				<div class="thumbnail_wrap">
+
+					<a href="photos/6465_BOBS_BURGERS_BOB_hires_75x75_thumbnail.jpg" class="thumbnail" data-categories="dude"> <img src="photos/6465_BOBS_BURGERS_BOB_hires_1024x1024.jpg" alt="Bob from Bob's Burgers"> </a>
+
+					<a href="photos/6466_BOBS_BURGERS_Linda_GLAM_75x75_thumbnail.jpg" class="thumbnail" data-categories="glasses,chick"> <img src="photos/6466_BOBS_BURGERS_Linda_GLAM_1024x1024.jpg" alt="Linda from Bob's Burgers"> </a>
+
+					<a href="photos/6467_BOBS_BURGERS_Tina_hires_75x75_thumbnail.jpg" class="thumbnail" data-categories="ponytail-hair,glasses,chick"> <img src="photos/6467_BOBS_BURGERS_Tina_hires_1024x1024.jpg" alt="Tina from Bob's Burgers"> </a>
+
+					<a href="photos/7646_Bobs_Bugers_Teddy_hires_75x75_thumbnail.jpg" class="thumbnail" data-categories="dude"> <img src="photos/7646_Bobs_Bugers_Teddy_hires_1024x1024.jpg" alt="Teddy from Bob's Burgers"> </a>
+
+					<a href="photos/6468_BOBS_BURGERS_Gene_GLAM_75x75_thumbnail.jpg" class="thumbnail" data-categories="dude"> <img src="photos/6468_BOBS_BURGERS_Gene_GLAM_1024x1024.jpg" alt="Gene from Bob's Burgers"> </a>
+
+					<a href="photos/6469_Bobs_Burgers_Louise_HIRES_75x75_thumbnail.jpg" class="thumbnail" data-categories="ponytail-hair,chick"> <img src="photos/6469_Bobs_Burgers_Louise_HIRES_1024x1024.jpg" alt="Louise from Bob's Burgers"> </a>
+
+					<a href="photos/7647_Bobs_Bugers_Buttloose_Tina_hires_75x75_thumbnail.jpg" class="thumbnail" data-categories="ponytail-hair,glasses,chick"> <img src="photos/7647_Bobs_Bugers_Buttloose_Tina_hires_1024x1024.jpg" alt="Buttloose Tina from Bob's Burgers"> </a>
+
+
+
+				</div><!-- .thumbnail_wrap end -->
+
+			</div><!-- .photos end -->
+
+		</div><!-- .gallery end -->
+
+	</div><!-- .container end -->
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="inc/fancybox/jquery.fancybox.js"></script>
+	<script src="inc/gallery.js"></script>
+	</body>
+</html>
